@@ -1,0 +1,52 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+*.log
+
+# --- Virtual environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- Jupyter & notebooks ---
+.ipynb_checkpoints
+*.ipynb
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- IDE settings ---
+.vscode/
+.idea/
+
+# --- Data files ---
+app/data/*.csv
+app/data/*.xlsx
+app/data/*.xls
+*.sqlite3
+*.db
+
+# --- Docker ---
+*.pid
+*.tar
+*.log
+docker-compose.override.yml
+
+# --- Environment variables ---
+.env.local
+.env.*
