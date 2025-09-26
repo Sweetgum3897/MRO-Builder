@@ -13,7 +13,6 @@ pip-wheel-metadata/
 *.log
 
 # --- Virtual environments ---
-.env
 .venv
 env/
 venv/
@@ -31,7 +30,6 @@ Thumbs.db
 .streamlit/secrets.toml
 
 # --- IDE settings ---
-.vscode/
 .idea/
 
 # --- Data files ---
@@ -48,5 +46,5 @@ app/data/*.xls
 docker-compose.override.yml
 
 # --- Environment variables ---
-.env.local
-.env.*
+config.bat
+node_modules
